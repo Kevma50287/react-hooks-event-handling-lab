@@ -1,8 +1,12 @@
 // Code Keypad Component Here
+import React from "react";
 
 function Keypad (){
     return (
-        <div></div>
+        <div>
+            {/* JSX event listerners are camelTyped */}
+            <input type="password" onChange={() => console.log('Entering password...')} />
+        </div>
     )
 }
 
